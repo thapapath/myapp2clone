@@ -1,17 +1,16 @@
 {
   "name": "myapp",
   "version": "1.0.0",
-  "description": "A simple Node.js web application",
-  "main": "src/app.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/app.js",
     "test": "mocha"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "mocha": "^9.0.0",
-    "chai": "^4.3.4"
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.4.0"
   }
 }
